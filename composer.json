@@ -1,0 +1,37 @@
+{
+    "name": "jeffersongoncalves/laravel-zero-console",
+    "description": "Reusable traits for Laravel Zero commands: output formatting (tables, state colorization, dates), standardized API error handling, and cwd/argument path resolution.",
+    "keywords": ["laravel-zero", "cli", "console", "traits", "formatting", "table"],
+    "homepage": "https://github.com/jeffersongoncalves/laravel-zero-console",
+    "license": "MIT",
+    "authors": [
+        { "name": "Jefferson Goncalves", "email": "jeffersongoncalves@users.noreply.github.com" }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.25",
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^3.8|^4.1"
+    },
+    "autoload": {
+        "psr-4": { "JeffersonGoncalves\\LaravelZero\\Console\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "JeffersonGoncalves\\LaravelZero\\Console\\Tests\\": "tests/" }
+    },
+    "scripts": {
+        "lint": "pint",
+        "test:lint": "pint --test",
+        "test:unit": "pest",
+        "test": ["@test:unit", "@test:lint"]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": { "pestphp/pest-plugin": true }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
