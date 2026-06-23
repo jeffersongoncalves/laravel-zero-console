@@ -1,3 +1,9 @@
+<div class="filament-hidden">
+
+![laravel-zero-console](https://raw.githubusercontent.com/jeffersongoncalves/laravel-zero-console/main/art/jeffersongoncalves-laravel-zero-console.png)
+
+</div>
+
 # laravel-zero-console
 
 Reusable traits for [Laravel Zero](https://laravel-zero.com) (and plain Laravel)

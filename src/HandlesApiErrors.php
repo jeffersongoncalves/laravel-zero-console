@@ -2,11 +2,15 @@
 
 namespace JeffersonGoncalves\LaravelZero\Console;
 
+use Illuminate\Console\Command;
+
 /**
  * Standardized API error handling for Laravel / Laravel Zero commands.
  *
  * Assumes `$this` is an Illuminate\Console\Command (uses `$this->components`
  * and the SUCCESS/FAILURE exit-code constants).
+ *
+ * @mixin Command
  */
 trait HandlesApiErrors
 {

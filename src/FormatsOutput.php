@@ -2,11 +2,15 @@
 
 namespace JeffersonGoncalves\LaravelZero\Console;
 
+use Illuminate\Console\Command;
+
 /**
  * Output formatting helpers for Laravel / Laravel Zero commands.
  *
  * Assumes `$this` is an Illuminate\Console\Command (uses `$this->table()`
  * and `$this->components`).
+ *
+ * @mixin Command
  */
 trait FormatsOutput
 {
