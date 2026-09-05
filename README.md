@@ -6,6 +6,8 @@
 
 # laravel-zero-console
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
+
 Reusable traits for [Laravel Zero](https://laravel-zero.com) (and plain Laravel)
 commands. Extracted from real CLIs that kept copy-pasting the same helpers:
 output formatting, standardized API error handling, and path resolution.
